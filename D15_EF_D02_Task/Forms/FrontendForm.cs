@@ -362,7 +362,18 @@ namespace D15_EF_D02_Task.Forms
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            context.SaveChanges();
+            try
+            {
+
+                context.SaveChanges();
+                MessageBox.Show("Updated Successfully", "Updated",
+                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error Please Fill All Requirement", "Error",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void comboxMonth_SelectedIndexChanged(object sender, EventArgs e)
