@@ -61,6 +61,12 @@ namespace D15_EF_D02_Task.Forms
         public FinalizePayment()
         {
             InitializeComponent();
+            this.txtPaymentNumber.PlaceholderText = "Payment Number";
+            this.txtCVC.PlaceholderText = "CVC";
+
+            combPayment.SelectedIndex = 0;
+            combMM.SelectedIndex = 0;
+            CombYY.SelectedIndex = 0;
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

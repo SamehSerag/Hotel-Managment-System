@@ -18,6 +18,12 @@ namespace D15_EF_D02_Task.Forms
 {
     public partial class FrontendForm : Form
     {
+        /// For Combobox Title
+        private const int CB_SETCUEBANNER = 0x1703;
+
+        [System.Runtime.InteropServices.DllImport("user32.dll", CharSet = System.Runtime.InteropServices.CharSet.Auto)]
+        private static extern int SendMessage(IntPtr hWnd, int msg, int wParam, [System.Runtime.InteropServices.MarshalAs(System.Runtime.InteropServices.UnmanagedType.LPWStr)] string lParam);
+       
         public IDbConnection Connection { get; set; }
         public HotelContext context = new HotelContext();
         private string getval;
@@ -66,6 +72,30 @@ namespace D15_EF_D02_Task.Forms
 
         private void Frontend_Load(object sender, EventArgs e)
         {
+            txtFirstName.PlaceholderText = "First Name";
+            txtLastName.PlaceholderText = "Last Name";
+            txtApt.PlaceholderText = "Apt";
+            txtCity.PlaceholderText = "City";
+            txtEmail.PlaceholderText = "Email";
+            txtPhone.PlaceholderText = "Phone";
+            txtStreet.PlaceholderText = "Street";
+            txtUniversalSearch.PlaceholderText = "Search By ID";
+            txtYear.PlaceholderText = "Year";
+            txtZipCode.PlaceholderText = "Zip Code";
+            comboxGender.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboxGender.SelectedIndex = 0;
+            comboxState.SelectedIndex = 0;
+            comboxDay.SelectedIndex = 0;
+            comboxMonth.SelectedIndex = 0;
+
+            //combQtGuest.Items.Insert(0, "dd");
+            //combQtGuest.SelectedIndex = 0;
+            SendMessage(this.combQtGuest.Handle, CB_SETCUEBANNER, 0, "# of guests");
+            SendMessage(this.combRoomType.Handle, CB_SETCUEBANNER, 0, "Room Type");
+            SendMessage(this.combRoomN.Handle, CB_SETCUEBANNER, 0, "Room Number ");
+            SendMessage(this.combFloor.Handle, CB_SETCUEBANNER, 0, "Floor");
+
+
             btnDelete.Visible = false;
             btnUpdate.Visible = false;
             comboSearch.Visible = false;
@@ -76,11 +106,13 @@ namespace D15_EF_D02_Task.Forms
             var s = context.Reservation.Local.ToBindingList();
             gridAllReservationsView.DataSource = s;
 
+
             //listboxOccubied.DataSource = context.Reservation.Where(r => r.CheckIn == true).ToList();
             //listboxOccubied.DisplayMember = "room_number" + " " +"ID" +  " " + "room_type";
 
             //var result = context.Reservation.Where(r => r.CheckIn == true).ToList();
-            var result = Connection.Query("Select* from Reservation where CheckIn = 'true'");
+            var result = context.Reservation.Where(r => r.CheckIn == true);
+            //var result = Connection.Query("Select* from Reservation where CheckIn = 'true'");
             foreach (var item in result)
             {
                 listboxOccubied.Items.Add(item.RoomNumber.Trim() + "  "+ item.RoomType + "  " + item.Id 
@@ -89,7 +121,8 @@ namespace D15_EF_D02_Task.Forms
             }
 
             //var result2 = context.Reservation.Where(r => r.CheckIn == false).ToList();
-            var result2 = Connection.Query("Select* from Reservation where CheckIn = 'false'");
+            //var result2 = Connection.Query("Select* from Reservation where CheckIn = 'false'");
+            var result2 = context.Reservation.Where(r => r.CheckIn == false);
 
             foreach (var item in result2)
             {
@@ -169,6 +202,7 @@ namespace D15_EF_D02_Task.Forms
                    foodBill
                     );
             context.Reservation.Add(reservation);
+
             context.SaveChanges();
         }
 
@@ -431,15 +465,14 @@ namespace D15_EF_D02_Task.Forms
         {
             if(int.TryParse(txtUniversalSearch.Text, out int temp))
             {
-              //var result = context.Reservation
-              //      .Where(r => r.Id == temp).ToList();
+                var result = from r in context.Reservation
+                             where r.Id == temp
+                             select r;
 
-                var result = Connection.Query<Reservation>("Select * from Reservation where Id = @Id",
-                new { Id = temp });
 
                 if (result != null /*result.Count != 0*/)
                 {
-                    gridSearchView.DataSource = result;
+                    gridSearchView.DataSource = result.ToList();
                     lablNotFound.Visible = false;
                     gridSearchView.Visible = true;
                 }
@@ -502,6 +535,11 @@ namespace D15_EF_D02_Task.Forms
         }
 
         private void comboxDay_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtFirstName_TextChanged(object sender, EventArgs e)
         {
 
         }

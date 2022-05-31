@@ -1888,19 +1888,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Sameh\\.nuget\\packages\\": {}
+    "C:\\Users\\muna\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\D15_EF_D02_Task.csproj",
+      "projectUniqueName": "D:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\D15_EF_D02_Task.csproj",
       "projectName": "D15_EF_D02_Task",
-      "projectPath": "E:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\D15_EF_D02_Task.csproj",
-      "packagesPath": "C:\\Users\\Sameh\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\obj\\",
+      "projectPath": "D:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\D15_EF_D02_Task.csproj",
+      "packagesPath": "C:\\Users\\muna\\.nuget\\packages\\",
+      "outputPath": "D:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Sameh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\muna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1965,7 +1965,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
