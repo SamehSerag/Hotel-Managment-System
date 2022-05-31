@@ -1,7 +1,7 @@
 
 # Hotel Management System
 
-A Desktop application that gives the possibility of preparing and running tests and automatically grading.
+This is a simple desktop Hotel Management tool that utilizes data from/to the SQL database using entity framework core.
 
 
 
