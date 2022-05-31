@@ -61,7 +61,7 @@ namespace D15_EF_D02_Task.Forms
         public FrontendForm()
         {
             InitializeComponent();
-            Connection = new SqlConnection("Data Source=. ; Initial Catalog=HotelReservation;Integrated Security = true");
+            Connection = new SqlConnection("Data Source=. ;Initial Catalog=HotelReservation;Integrated Security = true");
 
         }
 
@@ -95,6 +95,7 @@ namespace D15_EF_D02_Task.Forms
             SendMessage(this.combRoomType.Handle, CB_SETCUEBANNER, 0, "Room Type");
             SendMessage(this.combRoomN.Handle, CB_SETCUEBANNER, 0, "Room Number ");
             SendMessage(this.combFloor.Handle, CB_SETCUEBANNER, 0, "Floor");
+            SendMessage(this.comboSearch.Handle, CB_SETCUEBANNER, 0, "Select Record");
 
 
             btnDelete.Visible = false;
@@ -196,6 +197,9 @@ namespace D15_EF_D02_Task.Forms
 
         private void btnSubmit_Click(object sender, EventArgs e)
         {
+            try
+            {
+
             birthday = (comboxMonth.SelectedItem) + "-" + (comboxDay.SelectedIndex + 1) + "-" + txtYear.Text;
 
             Reservation reservation
@@ -215,6 +219,16 @@ namespace D15_EF_D02_Task.Forms
             context.Reservation.Add(reservation);
 
             context.SaveChanges();
+                MessageBox.Show("Added Successfully", "Submitted", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error Please Fill All Requirement", "Error", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
 
         private void btnReservation_Click(object sender, EventArgs e)
@@ -232,14 +246,14 @@ namespace D15_EF_D02_Task.Forms
             btnUpdate.Visible = true;
             comboSearch.Visible = true;
 
-            //var search = context.Reservation.Where(r => r.CheckIn == true)
-            //    .Select(r => new { ID = r.Id, Name = r.FirstName + " " + r.LastName, Phone = r.PhoneNumber });
+            var search = context.Reservation.Where(r => r.CheckIn == true)
+                .Select(r => new { ID = r.Id, Name = r.FirstName + " " + r.LastName, Phone = r.PhoneNumber });
 
-            var search = Connection.Query<Reservation>("select * from Reservation")?.AsList();
+            //var search = Connection.Query<Reservation>("select * from Reservation")?.AsList();
             foreach (var item in search)
             {
-                Trace.WriteLine(item.Id);
-                comboSearch.Items.Add($"{item.Id} | {item.FirstName} | {item.PhoneNumber} ");
+                Trace.WriteLine(item.ID);
+                comboSearch.Items.Add($"{item.ID} | {item.Name} | {item.Phone} ");
             }
         }
 
@@ -574,12 +588,25 @@ namespace D15_EF_D02_Task.Forms
         private void btnDelete_Click(object sender, EventArgs e)
         {
 
+            try
+            {
 
-            context.Reservation.Remove(selected);
-            comboSearch.Items.Remove(comboSearch.SelectedItem);
-            context.SaveChanges();
+            
 
-        }
+                context.Reservation.Remove(selected);
+                comboSearch.Items.Remove(comboSearch.SelectedItem);
+                context.SaveChanges();
+                MessageBox.Show("Deleted Successfully", "Deleted",
+                     MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Select Record to Delete", "Error", 
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+}
 
         private void button1_Click(object sender, EventArgs e)
         {

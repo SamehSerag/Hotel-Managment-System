@@ -108,7 +108,10 @@ namespace D15_EF_D02_Task.Forms
 
                 Trace.WriteLine("Shown");
                 if (foodBill < 0)
-                    foodBill = int.Parse(txtFoodBill.Text);
+                {
+                    if (int.TryParse(txtCurrentBill.Text, out foodBill));
+                    //foodBill = int.Parse(txtFoodBill.Text);
+                }
 
                 double FinalTotal = Convert.ToDouble(totalAmountFromFrontend) + totalWithTax + foodBill;
 
