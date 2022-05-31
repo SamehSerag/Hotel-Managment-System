@@ -6,77 +6,69 @@ This is a simple desktop Hotel Management tool that utilizes data from/to the SQ
 
 
 ## Features
-#### Student
+#### Admin Side
 - Login                   
-- Choose the course.
-- Take the test      
-- View grades.
+- Add/Update/Delete resrvation
+- Search by reservation ID     
+- See all reservation to Edit
+- Watch occupied Vs reserved
+- Select Food 
+- Receipt has all details of reservatiin
 
-#### Instructor
-- Login                   
-- Generate Reports
 
 
 ## Screenshots
 
-![App Screenshot](/Images/login.PNG?raw=true "Log In")
-![App Screenshot](/Images/choose.PNG?raw=true "Choose")
-![App Screenshot](/Images/selectExam.PNG?raw=true "Select Exam")
-![App Screenshot](/Images/exam.PNG?raw=true "Exam Random 10 Quastions")
-![App Screenshot](/Images/report.png?raw=true "Reports to be Generate by Instructor")
+![App Screenshot](/Images/1-login.PNG?raw=true "Log In")
+![App Screenshot](/Images/2- Add Resrvation.PNG?raw=true "Add Resrvation")
+![App Screenshot](/Images/6-Select Food.png?raw=true "Select Food")
+![App Screenshot](/Images/7- Receipt.png?raw=true "Receipt")
 
+![App Screenshot](/Images/3- Search By ID.PNG?raw=true "Search By ID")
+![App Screenshot](/Images/4- All Reservation to Edit.PNG?raw=true "All Reservation to Edit ")
+![App Screenshot](/Images/5- Occupied Vs Reserved.png?raw=true "Occupied Vs Reserved")
 
 ## Technologies
 - C#
 - SQL Server
-- ADO.NET
-- Crystal Report
+- Entity Framework 
 
-
-## Presentaion
-
-[Presentaion](https://prezi.com/view/APXmotcSkwVCZNfdszDU/)
 
 
 ## Requirements
 - SQL Server
-- Visual Studio 2019 (to support crystalreport)
+- Visual Studio 
+
+
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/SamehSerag/Examination-System.git
+  git clone https://github.com/SamehSerag/Hotel-Management-System.git
 ```
 
 Restore database
 
 ```bash
-  Examination_System_V7.bak
+  Database to test/HotelReservation.bak
 ```
 
-Go to the project directory
+Go Run project
 
 ```bash
   cd WinFormsApp1 V2.03 Reports
 ```
 
-Log in wtih student
+Log in
 
 ```bash
-  username: student, password: 1234
+  username: Admin, password: admin
 ```
-Or Log in wtih Instructor
 
-```bash
-  username: insturctor, password: insturctor
-```
 
 
 ## Authors
 
 - [Sameh Serag](https://github.com/SamehSerage)
-- [Abdelrahman Shebl](https://github.com/AbdelrahmanShebl1)
-- [Omnia Fathy](https://github.com/omnia-fathy)
-- [Samaa Khaled](https://github.com/SamaaKH99)
 
