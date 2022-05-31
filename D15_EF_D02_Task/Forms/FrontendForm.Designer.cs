@@ -887,6 +887,7 @@
             this.gridAllReservationsView.Size = new System.Drawing.Size(1089, 373);
             this.gridAllReservationsView.TabIndex = 0;
             this.gridAllReservationsView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.gridAllReservationsView.MouseLeave += new System.EventHandler(this.gridAllReservationsView_MouseLeave);
             // 
             // tabRoom
             // 

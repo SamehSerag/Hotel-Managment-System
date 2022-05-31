@@ -72,6 +72,7 @@ namespace D15_EF_D02_Task.Forms
 
         private void Frontend_Load(object sender, EventArgs e)
         {
+            tabControl1.SelectedIndexChanged += TabControl1_SelectedIndexChanged;
             txtFirstName.PlaceholderText = "First Name";
             txtLastName.PlaceholderText = "Last Name";
             txtApt.PlaceholderText = "Apt";
@@ -102,16 +103,21 @@ namespace D15_EF_D02_Task.Forms
             gridSearchView.Visible = false;
             lablNotFound.Visible = false;
 
-            context.Reservation.Load();
-            var s = context.Reservation.Local.ToBindingList();
-            gridAllReservationsView.DataSource = s;
+
+            var result = from r in context.Reservation
+                         select r;
+
+            //context.Reservation.Select(s => s).Load();
+            //var s = context.Reservation.Local.ToBindingList();
+            //var s = result.ToList();
+            gridAllReservationsView.DataSource = result.ToList(); ;
 
 
             //listboxOccubied.DataSource = context.Reservation.Where(r => r.CheckIn == true).ToList();
             //listboxOccubied.DisplayMember = "room_number" + " " +"ID" +  " " + "room_type";
 
             //var result = context.Reservation.Where(r => r.CheckIn == true).ToList();
-            var result = context.Reservation.Where(r => r.CheckIn == true);
+            var result3 = context.Reservation.Where(r => r.CheckIn == true);
             //var result = Connection.Query("Select* from Reservation where CheckIn = 'true'");
             foreach (var item in result)
             {
@@ -131,6 +137,11 @@ namespace D15_EF_D02_Task.Forms
                     + " " +item.ArrivalTime.Date + " " + item.LeavingTime.Date 
                     );
             }
+        }
+
+        private void TabControl1_SelectedIndexChanged(object? sender, EventArgs e)
+        {
+            
         }
 
         private void comboBox5_SelectedIndexChanged(object sender, EventArgs e)
@@ -542,6 +553,12 @@ namespace D15_EF_D02_Task.Forms
         private void txtFirstName_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void gridAllReservationsView_MouseLeave(object sender, EventArgs e)
+        {
+            
+            context.SaveChanges();
         }
 
         private void label1_Click(object sender, EventArgs e)
