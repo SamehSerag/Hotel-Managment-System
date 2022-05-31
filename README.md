@@ -20,13 +20,6 @@ This is a simple desktop Hotel Management tool that utilizes data from/to the SQ
 ## Screenshots
 
 ![App Screenshot](/Images/1-login.PNG?raw=true "Log In")
-![App Screenshot](/Images/2- Add Resrvation.PNG?raw=true "Add Resrvation")
-![App Screenshot](/Images/6-Select Food.png?raw=true "Select Food")
-![App Screenshot](/Images/7- Receipt.png?raw=true "Receipt")
-
-![App Screenshot](/Images/3- Search By ID.PNG?raw=true "Search By ID")
-![App Screenshot](/Images/4- All Reservation to Edit.PNG?raw=true "All Reservation to Edit ")
-![App Screenshot](/Images/5- Occupied Vs Reserved.png?raw=true "Occupied Vs Reserved")
 
 ## Technologies
 - C#
