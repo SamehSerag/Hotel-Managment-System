@@ -7,3 +7,4 @@ select r.first_name, r.last_name, r.birth_day, r.gender,
 		r.check_in, r.break_fast, r.lunch, r.dinner, r.cleaning, r.towel, r.s_surprise,
 		r.supply_status, r.food_bill
 from FRONTEND_RESERVATION.dbo.reservation r
+--d
