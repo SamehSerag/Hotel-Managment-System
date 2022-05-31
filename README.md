@@ -19,7 +19,7 @@ This is a simple desktop Hotel Management tool that utilizes data from/to the SQ
 
 ## Screenshots
 
-![App Screenshot](/Images/202.PNG?raw=true "Log In")
+![App Screenshot](/Images/login.PNG?raw=true "Log In")
 
 ## Technologies
 - C#
