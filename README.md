@@ -22,7 +22,7 @@ This is a simple desktop Hotel Management tool that utilizes data from/to the SQ
 ![App Screenshot](/Images/LogIn.PNG?raw=true "Log In")
 ![App Screenshot](/Images/AddResrvation.PNG?raw=true "Log In")
 ![App Screenshot](/Images/SearchByID.PNG?raw=true "Log In")
-![App Screenshot](/Images/AllReservationEdit.PNG?raw=true "Log In")
+![App Screenshot](/Images/AllReservationEdit .PNG?raw=true "Log In")
 ![App Screenshot](/Images/OccupiedVsReserved.PNG?raw=true "Log In")
 ![App Screenshot](/Images/SelectFood.PNG?raw=true "Log In")
 ![App Screenshot](/Images/Receipt.PNG?raw=true "Log In")
