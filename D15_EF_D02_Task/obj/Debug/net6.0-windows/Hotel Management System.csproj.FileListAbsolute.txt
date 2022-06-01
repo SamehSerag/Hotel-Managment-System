@@ -1,0 +1,54 @@
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.csproj.AssemblyReference.cache
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\D15_EF_D02_Task.Forms.FinalizePayment.resources
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\D15_EF_D02_Task.Forms.FoodMenu.resources
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\D15_EF_D02_Task.Forms.FrontendForm.resources
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\D15_EF_D02_Task.LogInForm.resources
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel_Management_System.Properties.Resources.resources
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.csproj.GenerateResource.cache
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.AssemblyInfoInputs.cache
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.AssemblyInfo.cs
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.csproj.CoreCompileInputs.cache
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Hotel Management System.exe
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Hotel Management System.deps.json
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Hotel Management System.runtimeconfig.json
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Hotel Management System.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Hotel Management System.pdb
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Dapper.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Humanizer.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.csproj.CopyComplete
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\refint\Hotel Management System.dll
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.pdb
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\Hotel Management System.genruntimeconfig.cache
+D:\ITI\C#\D16 EF D03\D15_EF_D02_Task\D15_EF_D02_Task\obj\Debug\net6.0-windows\ref\Hotel Management System.dll

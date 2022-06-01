@@ -98,7 +98,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::D15_EF_D02_Task.Properties.Resources.lunch_new_png;
+            this.pictureBox3.Image = global::Hotel_Management_System.Properties.Resources.lunch_new_png;
             this.pictureBox3.ImageLocation = "";
             this.pictureBox3.Location = new System.Drawing.Point(221, 68);
             this.pictureBox3.Name = "pictureBox3";
@@ -109,7 +109,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::D15_EF_D02_Task.Properties.Resources.Dinner_new_png;
+            this.pictureBox2.Image = global::Hotel_Management_System.Properties.Resources.Dinner_new_png;
             this.pictureBox2.Location = new System.Drawing.Point(14, 250);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(175, 108);
@@ -119,7 +119,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::D15_EF_D02_Task.Properties.Resources.breakfast;
+            this.pictureBox1.Image = global::Hotel_Management_System.Properties.Resources.breakfast;
             this.pictureBox1.Location = new System.Drawing.Point(14, 68);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 108);

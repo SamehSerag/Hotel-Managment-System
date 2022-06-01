@@ -1893,9 +1893,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\D15_EF_D02_Task.csproj",
-      "projectName": "D15_EF_D02_Task",
-      "projectPath": "D:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\D15_EF_D02_Task.csproj",
+      "projectUniqueName": "D:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\Hotel Management System.csproj",
+      "projectName": "Hotel Management System",
+      "projectPath": "D:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\Hotel Management System.csproj",
       "packagesPath": "C:\\Users\\muna\\.nuget\\packages\\",
       "outputPath": "D:\\ITI\\C#\\D16 EF D03\\D15_EF_D02_Task\\D15_EF_D02_Task\\obj\\",
       "projectStyle": "PackageReference",
