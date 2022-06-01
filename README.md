@@ -58,7 +58,7 @@ Restore database
 Go Run project
 
 ```bash
-  cd WinFormsApp1 V2.03 Reports
+  cd Hotel_Management_System.sln
 ```
 
 Log in
